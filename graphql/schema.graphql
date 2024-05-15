@@ -1,0 +1,16 @@
+
+
+
+type Query
+type Mutation
+
+#import scalar.graphql
+
+#import Types/user.graphql
+
+#import Mutations/User/user.graphql
+
+#import Queries/user.graphql
+
+
+

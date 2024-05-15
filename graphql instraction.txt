@@ -1,0 +1,35 @@
+{
+  users(first:1){
+    data{
+      id
+      name
+      email
+    }
+      paginatorInfo {
+      currentPage
+      lastPage
+      hasMorePages
+      count
+      total
+    }
+  }
+}
+
+
+---------------------------------------------------------------------------------------
+{
+  users(name:"%shereen%",first:2){
+    data{
+      id
+      name
+      email
+    }
+      paginatorInfo {
+      currentPage
+      lastPage
+      hasMorePages
+      count
+      total
+    }
+  }
+}
